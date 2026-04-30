@@ -10,8 +10,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite --host",
+    "build": "node init && vite build",
+    "dev": "node init && vite --host",
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit"

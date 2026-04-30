@@ -62,8 +62,8 @@
   "scripts": {
     "prepare": "pnpm run update",
     "update": "tsx ./scripts/vscode-ext-gen.ts",
-    "dev": "tsdown --watch",
-    "build": "tsdown",
+    "dev": "node init && tsdown --watch",
+    "build": "node init && tsdown",
     "publish": "tsx ./scripts/publish.ts",
     "typecheck": "tsc --noEmit"
   },

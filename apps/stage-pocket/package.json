@@ -10,14 +10,14 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "vite build",
+    "build": "node init && vite build",
     "lint": "eslint .",
     "lint:swift": "swiftlint ios",
     "preview": "vite preview",
     "typecheck": "vue-tsc --noEmit",
-    "dev:web": "vite",
-    "dev:ios": "cap-vite -- ios",
-    "dev:android": "cap-vite -- android"
+    "dev:web": "node init && vite",
+    "dev:ios": "node init && cap-vite -- ios",
+    "dev:android": "node init && cap-vite -- android"
   },
   "dependencies": {
     "@capacitor/android": "catalog:",

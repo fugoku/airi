@@ -24,7 +24,7 @@
     "package.json"
   ],
   "scripts": {
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {

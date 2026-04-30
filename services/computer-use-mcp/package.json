@@ -26,8 +26,8 @@
     "package.json"
   ],
   "scripts": {
-    "dev": "tsx ./src/bin/run.ts",
-    "start": "tsx ./src/bin/run.ts",
+    "dev": "node init && tsx ./src/bin/run.ts",
+    "start": "node init && tsx ./src/bin/run.ts",
     "e2e:airi-chat": "tsx ./src/bin/e2e-airi-chat-observable.ts",
     "e2e:airi-chat-terminal-self-acquire": "tsx ./src/bin/e2e-airi-chat-terminal-self-acquire.ts",
     "demo:terminal-self-acquire": "tsx ./src/bin/e2e-airi-chat-terminal-self-acquire.ts",
@@ -44,7 +44,7 @@
     "smoke:macos": "tsx ./src/bin/smoke-macos.ts",
     "smoke:workflow": "tsx ./src/bin/smoke-workflow.ts",
     "mcp:inspector": "pnpx @modelcontextprotocol/inspector pnpm -F @proj-airi/computer-use-mcp start",
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "typecheck": "tsc --noEmit",
     "test": "vitest run --config ./vitest.config.ts"
   },

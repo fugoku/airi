@@ -31,7 +31,7 @@
     "package.json"
   ],
   "scripts": {
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "test": "vitest run",
     "typecheck": "tsc --noEmit"
   },

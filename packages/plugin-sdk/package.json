@@ -34,8 +34,8 @@
     "package.json"
   ],
   "scripts": {
-    "build": "tsdown",
-    "dev": "pnpm run build",
+    "build": "node init && tsdown",
+    "dev": "node init && pnpm run build",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },

@@ -33,7 +33,7 @@
     "package.json"
   ],
   "scripts": {
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "eval:run": "vieval run --config ./vieval.config.ts",
     "typecheck": "tsc --noEmit"
   },

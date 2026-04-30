@@ -23,7 +23,7 @@
     "./*": "./src/*.ts"
   },
   "scripts": {
-    "build": "echo \"No build step required\"",
+    "build": "node init && echo \"No build step required\"",
     "test:run": "vitest run",
     "typecheck": "vue-tsc --noEmit"
   },

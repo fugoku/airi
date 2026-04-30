@@ -16,7 +16,7 @@
     "directory": "engines/stage-tamagotchi-godot"
   },
   "scripts": {
-    "build": "dotnet build ./stage-tamagotchi-godot.csproj",
+    "build": "node init && dotnet build ./stage-tamagotchi-godot.csproj",
     "typecheck": "dotnet build ./stage-tamagotchi-godot.csproj"
   }
 }

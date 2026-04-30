@@ -33,9 +33,9 @@
     "package.json"
   ],
   "scripts": {
-    "dev": "tsx ./src/bin/run.js",
-    "start": "tsx ./src/bin/run.js",
-    "build": "tsdown",
+    "dev": "node init && tsx ./src/bin/run.js",
+    "start": "node init && tsx ./src/bin/run.js",
+    "build": "node init && tsdown",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

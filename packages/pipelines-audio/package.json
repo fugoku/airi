@@ -29,7 +29,7 @@
     "package.json"
   ],
   "scripts": {
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "typecheck": "tsc --noEmit",
     "test": "vitest",
     "test:run": "vitest run --config vitest.config.ts"

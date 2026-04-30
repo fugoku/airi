@@ -5,7 +5,7 @@
   "private": true,
   "description": "Home Assistant integration plugin for AIRI server",
   "scripts": {
-    "build": "tsdown",
+    "build": "node init && tsdown",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

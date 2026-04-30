@@ -8,8 +8,8 @@
     "tsdown": "./dist/run.js"
   },
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsx ./src/run.ts",
+    "build": "node init && tsdown",
+    "dev": "node init && tsx ./src/run.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

@@ -29,7 +29,7 @@
     "package.json"
   ],
   "scripts": {
-    "build": "tsdown"
+    "build": "node init && tsdown"
   },
   "devDependencies": {
     "@proj-airi/unplugin-drizzle-orm-migrations": "catalog:"

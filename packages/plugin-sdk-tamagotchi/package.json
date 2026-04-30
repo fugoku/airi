@@ -43,7 +43,7 @@
   "scripts": {
     "test": "vitest",
     "typecheck": "tsc --noEmit",
-    "build": "tsdown"
+    "build": "node init && tsdown"
   },
   "dependencies": {
     "@moeru/eventa": "catalog:",
