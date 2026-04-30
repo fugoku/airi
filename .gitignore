@@ -134,3 +134,6 @@ apps/stage-tamagotchi/electron.vite.config.*.mjs
 
 # Tools - Obsidian
 .obsidian/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
